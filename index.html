@@ -1,59 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>New page</title>
-    <style>
-        .card{
-            width: 300px;
-            position: relative;
-            border: 1px solid #000;
-            margin: 0px auto;
-            overflow: hidden;
-        }
-        .guy-img > img{
-            width: 100%;
-        }
-        .desc{
-            font: 20px tahoma;
-            padding: 5px;
-            background-color: rgba(0,0,0,.5);
-            color: #fff;
-            position: absolute;
-            bottom: 0px;
-            width: 100%;
-            visibility: hidden;
-
-        }
-        .card:hover .desc{
-            visibility: visible;
-        }
-
-        
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="card">
-        <div class="desc">
-            Strawberries
-        </div>
-        <div class="strawberries-img">
-            <img src="strawberries-img.jpeg" />
-        </div>
-    </div>
+
+  <header>
+    <h1>Gallery</h1>
+    <!-- Navigation Links -->
+    <nav>
+      <ul>
+        <li><a href="#nature">Nature</a></li>
+        <li><a href="#animals">Animals</a></li>
+        <li><a href="#architecture">Architecture</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="nature">
+      <h2>Nature</h2>
+      <!-- Nature image gallery -->
+      <div class="gallery">
+        <img src="IMG_2033.jpeg" alt="Nature Image 1">
+        <img src="IMG_2035.jpeg" alt="Nature Image 2">
+        <img src="IMG_2036.jpeg" alt="Nature Image 3">
+        <!-- Add more images as needed -->
+      </div>
+    </section>
+
+    <section id="animals">
+      <h2>Animals</h2>
+      <!-- Animals image gallery -->
+      <div class="gallery">
+        <img src="a1.jpg" alt="Animal Image 1">
+        <img src="a2.jpg" alt="Animal Image 2">
+        <img src="a3.jpg" alt="Animal Image 3">
+        <!-- Add more images as needed -->
+      </div>
+    </section>
+
+    <section id="architecture">
+      <h2>Architecture</h2>
+      <!-- Architecture image gallery -->
+      <div class="gallery">
+        <img src="b1.jpg" alt="Architecture Image 1">
+        <img src="b2.jpg" alt="Architecture Image 2">
+        <img src="b3.jpg" alt="Architecture Image 3">
+        <!-- Add more images as needed -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Gallery</p>
+  </footer>
+
 </body>
 </html>
-
-<h2>color bars</h2>
-<div class="f">fff</div> 
-<div class="e">eee</div>
-<div class="d">ddd</div>
-<div class="c">ccc</div>
-<div class="b">bbb</div>
-<div class="a">aaa</div>
-<div class="six">#666</div>
-<div class="five">#555</div>
-<div class="four">#444</div>
-<div class="three">#333</div>
-<div class="two">#222</div>
-<div class="one">#111</div>
-<div class="zero">#000</div>
